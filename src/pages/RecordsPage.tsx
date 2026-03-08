@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { getRecords, deleteRecord, BaZiRecord } from '@/lib/baziStorage';
+import { getRecords, deleteRecord } from '@/lib/baziStorage';
+import type { BaZiRecord } from '@/lib/bazi';
 import { ArrowLeft, Trash2, Eye } from 'lucide-react';
 
 const RecordsPage = () => {
