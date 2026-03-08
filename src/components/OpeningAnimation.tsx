@@ -108,7 +108,7 @@ const OpeningAnimation = ({ onComplete }: Props) => {
             animate={{ opacity: 0.6 }}
             transition={{ delay: 1.8 }}
           >
-            福星何大師
+            福青施老師
           </motion.p>
         </motion.div>
       )}

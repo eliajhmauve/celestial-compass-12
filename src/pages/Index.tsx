@@ -80,7 +80,7 @@ const HomePage = () => {
       {/* Footer */}
       <footer className="p-4 text-center">
         <p className="text-xs text-muted-foreground font-body">
-          © 福星何大師 · 八字命盤觀測台
+          © 福青施老師 · 八字命盤觀測台
         </p>
       </footer>
     </div>
