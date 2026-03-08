@@ -8,7 +8,7 @@ const HomePage = () => {
     <div className="min-h-screen mystic-gradient flex flex-col">
       {/* Header */}
       <header className="p-4 flex justify-between items-center">
-        <span className="font-display text-lg gold-text tracking-widest">福星何大師</span>
+        <span className="font-display text-lg gold-text tracking-widest">福青施老師</span>
         <button
           onClick={() => navigate('/records')}
           className="btn-brutal-outline !text-sm !px-3 !py-1"
