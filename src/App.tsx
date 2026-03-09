@@ -23,7 +23,7 @@ const App = () => {
         <Toaster />
         <Sonner />
         {showIntro && <OpeningAnimation onComplete={handleIntroComplete} />}
-        <BrowserRouter>
+        <BrowserRouter basename="/celestial-compass-12">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/input" element={<BaZiInputPage />} />
